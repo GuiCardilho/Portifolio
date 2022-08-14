@@ -46,14 +46,15 @@
         align-content: center;
         justify-content: center;
         width: 100%;
-        top: 92%;
+        top: 90vh;
         z-index: 10;
     }
 
     .center-container{
         background-color: #030303;
         border-radius: 20px;
-        padding: 5px 5px;
+        padding: 10px 10px;
+        box-shadow: 0 0 4px 0 #030303;
     }
 
     .link-container{
@@ -75,8 +76,8 @@
 
 
     .img-navbar{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         transition: 0.5s;
         z-index: 10;
     }
@@ -87,15 +88,15 @@
 
     .link-navbar::after{
         content: '';
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         padding: 10px;
         border-radius: 15px;
         background-color: #E0E722;
         opacity: 0;
         transition: 0.5s;
         position: absolute;
-        box-shadow: 0 0 5px 1px #030303;
+        box-shadow: 0 0 3px 1px #E0E722;
         
     }
 
@@ -121,6 +122,7 @@
     
     .link-navbar:hover .text-navbar{
         color: #E0E722;
+        text-shadow: 0px 0 5px #E0E722;
     }
 
     .link-navbar:hover .text-navbar{
