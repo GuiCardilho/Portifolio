@@ -1,7 +1,8 @@
 <template>
   <div>
-    <NavBar></NavBar>
+    <TheHeader></TheHeader>
     <TheConteudo></TheConteudo>
+    <NavBar></NavBar>
   </div>
 </template>
 
@@ -9,6 +10,7 @@
 import { defineComponent } from 'vue';
 import NavBar from './components/NavBar.vue';
 import TheConteudo from './components/TheConteudo.vue';
+import TheHeader from './components/TheHeader.vue';
 
 
 
@@ -16,8 +18,9 @@ export default defineComponent({
   name: 'App',
   components: {
     NavBar,
-    TheConteudo
-  }
+    TheConteudo,
+    TheHeader
+}
 });
 </script>
 
